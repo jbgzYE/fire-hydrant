@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+canvas, #p2p-output {
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
+  /* switch to "contain" if you want to see the entire output square, "cover" for fullscreen always */
+  object-fit: cover;
+  left: 0;
+  top: 0;
+  
+}
+
+img {
+  z-index: 0;
+}
+
+canvas {
+  z-index: 1;
+}
+
+#clearButton {
+  position: absolute;
+  left: 50%;
+  bottom: 100px;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+
+  width: 100px;
+  height: 20px;
+  object-fit: cover;
+  border: 2px solid red;
+}

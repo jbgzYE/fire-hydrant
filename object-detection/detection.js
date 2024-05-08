@@ -27,7 +27,7 @@ async function createObjectDetector() {
       delegate: "GPU",
     },
     maxResults: -1, // set to -1 to grab all results 
-    scoreThreshold: .1,
+    scoreThreshold: .05,
     runningMode: runningMode,
     categoryAllowlist: ["fire hydrant"]
   });

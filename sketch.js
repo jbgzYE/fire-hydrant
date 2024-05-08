@@ -2,7 +2,7 @@ const SIZE = 256, sampleNum = 7;
 let sampleIndex = 0, modelReady = false, isTransfering = false;
 const inputImgs = [], outputImgs = [];
 
-const manhole_covers = pix2pix('./models/manhole_covers.pict', modelLoaded);
+const manhole_covers = pix2pix('./models/firehydrant01.pict', modelLoaded);
 let video;
 
 function setup() {

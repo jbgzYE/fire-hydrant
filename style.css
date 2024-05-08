@@ -29,7 +29,7 @@ canvas {
   z-index: 3;
 
   width: 100px;
-  height: 20px;
-  object-fit: cover;
+  height: 100px;
+  object-fit: contain;
   border: 2px solid red;
 }

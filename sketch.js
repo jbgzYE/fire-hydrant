@@ -37,7 +37,7 @@ function draw() {
   //transfer()
 }
 
-function mouseDragged() {
+function mouseMoved() {
   if (modelReady && !isTransfering) {
     transfer()
   }

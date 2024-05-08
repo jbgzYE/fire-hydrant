@@ -10,8 +10,8 @@ let results;
 let runningMode = "VIDEO";
 let observers = [];
 
-const w = 640;
-const h = 360;
+const w = 1920;
+const h = 1080;
 video.style.width = w + "px";
 video.style.height = h + "px";
 video.setAttribute("width", w);

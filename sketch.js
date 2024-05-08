@@ -34,10 +34,10 @@ function draw() {
   // if (modelReady && !isTransfering) {
   //   transfer()
   // }
-  transfer()
+  //transfer()
 }
 
-function mouseDragged() {
+function mouseMoved() {
   if (modelReady && !isTransfering) {
     transfer()
   }
@@ -95,3 +95,7 @@ function useEraser() {
 clearButton.addEventListener("click", function(){
   clearCanvas();
 })
+
+setTimeout(function() {
+  window.location.href=window.location.href;
+}, 1000000)

@@ -25,7 +25,7 @@ let sketch = function (p) {
 
         // draw bounding box
         const boundingBox = object.boundingBox
-        const boundingBoxOrigin = p.createVector(p.width - boundingBox.originX - boundingBox.width,
+        const boundingBoxOrigin = p.createVector(boundingBox.originX,
           boundingBox.originY
 
         )
@@ -41,7 +41,7 @@ let sketch = function (p) {
         p.noStroke();
         p.fill(hue, 0, 100)
         p.textSize(30)
-        p.text(`${categoryName}, ${Math.round(parseFloat(score) * 100)}%`, p.width - boundingBox.originX - boundingBox.width, boundingBox.originY)
+        p.text(`${categoryName}, ${Math.round(parseFloat(score) * 100)}%`, boundingBox.originX - boundingBox.width, boundingBox.originY)
       }
     }
   };

@@ -10,11 +10,11 @@ video {
   left: 0;
   width: 100% !important;
   height: 100% !important;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 video {
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
 }
 
 canvas {

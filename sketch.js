@@ -50,7 +50,7 @@ function transfer() {
   // Apply pix2pix transformation
   manhole_covers.transfer(canvasElement, result => {
     // Clear output container
-    outputContainer.html('');
+    outputContainer.html('');`` 
     // Create an image based result
     createImg(result.src).id("p2p-output").parent('output');
     

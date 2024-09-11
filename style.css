@@ -33,3 +33,54 @@ canvas {
   object-fit: contain;
   border: 2px solid red;
 }
+
+#text-overlay01 {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  right: 10px; /* 添加这一行，使宽度跨越父容器 */
+  color: red; /* Set text color */
+  font-size: 48px; /* Set font size */
+  z-index: 2; /* Ensure text is on top of the canvas */
+  text-align: center; /* 水平居中 */
+  font-family: 'Press Start 2P', cursive; /* 应用像素化字体 */
+  text-shadow: 2px 2px 20px white; /* 添加阴影 */
+}
+
+
+
+#text-overlay {
+  position: absolute;
+  top: 240px;
+  left: 100px;
+  right: 950px;
+  color: red; /* Set text color */
+  font-size: 17px; /* Set font size */
+  z-index: 2; /* Ensure text is on top of the canvas */
+  text-shadow: 2px 2px 20px white; /* 添加阴影 */
+}
+
+#text-overlay02 {
+  position: absolute;
+  top: 130px;
+  left: 300px;
+  right: 300px;
+  color: red; /* Set text color */
+  font-size: 18px; /* Set font size */
+  z-index: 2; /* Ensure text is on top of the canvas */
+  text-align: center;
+  text-shadow: 2px 2px 20px white; /* 添加阴影 */
+  
+  
+}
+
+#text-overlay03 {
+  position: absolute;
+  top: 240px;
+  left: 950px;
+  right: 100px;
+  color: red; /* Set text color */
+  font-size: 17px; /* Set font size */
+  z-index: 2; /* Ensure text is on top of the canvas */
+  text-shadow: 2px 2px 20px white; /* 添加阴影 */
+}
